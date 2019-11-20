@@ -57,10 +57,17 @@ var player2 = document.querySelector("#player2")
 
 
 playerAdd.addEventListener("click", function () {
-  var name1Play = player1.innerText = player1Input.value
-  player2.innerText = player2Input.value
+  player1.innerText = player1Input.value
+  player1.style.textTransform = "uppercase"
 
-  
+  player2.innerText = player2Input.value
+  player2.style.textTransform = "uppercase"
+
+
+
+
+
+
 
 
 
