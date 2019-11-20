@@ -1,3 +1,10 @@
+#headName{
+    font-family: 'Shadows Into Light', cursive;
+    color: whitesmoke;
+    font-size: 3rem;
+
+}
+
 .fluid-custom{
     background-image: url(./images/Alone-in-a-crowd.jpg);
     background-size: cover;
@@ -6,7 +13,9 @@
 }
 .oben {
     height: 100px;
-    background: red;
+    background:linear-gradient(to right, #362122, #353132);
+    box-shadow: 5px 10px 18px #141313 ;
+    z-index: 1;
 }
 .haupt {
     
@@ -17,3 +26,14 @@
     background-position: center;
 }
 
+.player{
+    font-family:'Exo 2', sans-serif;
+    color:whitesmoke;
+    font-size: 3rem;
+}
+
+.score{
+    font-family:'Exo 2', sans-serif;
+    color:whitesmoke;
+    font-size: 4rem;
+}
