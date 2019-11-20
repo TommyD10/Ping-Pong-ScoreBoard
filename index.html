@@ -23,19 +23,19 @@
                 <div class="col-sm haupt p-5">
                     <div class="row">
                         <div class="col  text-center  p-5">
-                            <button type="button" id="newGame"  class="btn btn-danger">NEW GAME</button>
+                            <button type="button" id="newGame" class="btn btn-danger">NEW GAME</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col  text-center  p-5">
                             <div class="row">
                                 <div class="col-6">
-                                    <h2 class="">PLAYER 1</h2>
+                                    <h2 id="player1">PLAYER 1</h2>
                                     <p id="score1">0</p>
                                     <button type="button" id="pl1" class="btn btn-danger">POINT</button>
                                 </div>
                                 <div class="col-6">
-                                    <h2 class="">PLAYER 2</h2>
+                                    <h2 id="player2">PLAYER 2</h2>
                                     <p id="score2">0</p>
                                     <button type="button" id="pl2" class="btn btn-danger">POINT</button>
                                 </div>
@@ -44,10 +44,23 @@
                     </div>
                     <div class="row">
                         <div class="col  text-center  p-5">
-                            <button type="button" class="btn btn-danger">Reset</button>
+                            <button type="button" id="resetName" class="btn btn-danger">Reset</button>
                         </div>
                     </div>
-                    
+                    <div class="row justify-content-center">
+                        <div class="col  p-5">
+                            <input class="play1" type="text" placeholder="Player Name">
+                        </div>
+                        <div class="col p-5 text-center">
+                            <button type="button" id="plBtn" class="btn btn-danger" value="Name">Submit</button>
+                        </div>
+                        <div class="row">
+                            <div class="col   p-5">
+                                <input class="play2" type="text" placeholder="Player Name">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
