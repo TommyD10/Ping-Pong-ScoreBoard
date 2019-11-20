@@ -17,7 +17,15 @@ function goPoint() {
   var player1Score = 0
   document.getElementById("score1").textContent = add()
   if (Math.abs(counter1 - counter2) >= 2 && counter1 >= 11 && counter1 > counter2) {
-    return alert ("WINNER")
+    alert("WINNER")
+    document.getElementById("score1").textContent = 0
+    document.getElementById("score2").textContent = 0
+
+    counter1 = 0
+    counter2 = 0
+
+    document.getElementById("player1").textContent = "Player 1"
+  document.getElementById("player2").textContent = "Player 2"
   }
 
 }
@@ -34,7 +42,16 @@ function goPoint2() {
   document.getElementById("score2").textContent = add2()
   if (Math.abs(counter2 - counter1) >= 2 && counter2 >= 11 && counter2 > counter1) {
 
-    return alert( "WINNER")
+    alert("WINNER")
+
+    document.getElementById("score1").textContent = 0
+    document.getElementById("score2").textContent = 0
+
+    counter1 = 0
+    counter2 = 0
+
+    document.getElementById("player1").textContent = "Player 1"
+  document.getElementById("player2").textContent = "Player 2"
   }
 
 }
