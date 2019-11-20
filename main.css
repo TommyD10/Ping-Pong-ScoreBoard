@@ -1,8 +1,18 @@
+.fluid-custom{
+    background-image: url(./images/Alone-in-a-crowd.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
 .oben {
     height: 100px;
     background: red;
 }
 .haupt {
-    margin-top: 5rem;
+    
     background: #FFE6E6;
+    background-image: url(./images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
