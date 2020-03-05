@@ -27,6 +27,7 @@ function goPoint() {
     reset()
 }}
 
+
 var add2 = (function () {
   return function () {
     counter2 += 1;
