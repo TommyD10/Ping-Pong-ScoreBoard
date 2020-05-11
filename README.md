@@ -2,4 +2,5 @@
 
 ONE PAGE JS PROJECT
 
-Vanilla JS code :D 
+Vanilla JS 
+
